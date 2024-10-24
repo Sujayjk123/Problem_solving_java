@@ -1,4 +1,4 @@
-public class problems {
+public class Problems {
     public static void main(String[] args) {
 
         //sum of array and count even and odd

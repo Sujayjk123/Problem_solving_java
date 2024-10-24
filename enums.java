@@ -1,6 +1,4 @@
-
-
-public class enums {
+public class Enums {
      
 
       
@@ -54,10 +52,7 @@ public class enums {
         }
     
         public static void main(String[] args) {
-    
-            
-    
-            
+
             Day today = Day.MONDAY;
             System.out.println("Today is: " + today);
     
