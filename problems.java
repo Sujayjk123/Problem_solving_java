@@ -2,7 +2,18 @@ public class Problems {
     public static void main(String[] args) {
 
         //sum of array and count even and odd
-        int []a = {2,4,5,2,6,2,7};
+        int []arrayOfInt = {2,4,5,2,6,2,7};
+        sumOfArray(arrayOfInt);
+
+        //occurance of each letter
+        char character = 'm';
+        String lang = "malayalam";
+        occurance(lang,character);
+        
+    }
+
+    public static void sumOfArray(int []a){
+
         int sum =0;
         int countEven = 0;
         int countOdd = 0;
@@ -20,10 +31,9 @@ public class Problems {
         System.out.println("sum of array : "+ sum);
         System.out.println("even number count :"+countEven);
         System.out.println("even number count :"+countOdd);
+    }
 
-        //occurance of each letter
-        char character = 'm';
-        String lang = "malayalam";
+    public static void occurance(String lang,char character){
         char []langA = lang.toCharArray();
         for(int i=0;i<langA.length;i++){
 
@@ -32,10 +42,6 @@ public class Problems {
             }
             
         } 
-
-
-
-       
-       
     }
+        
 }
