@@ -7,7 +7,7 @@ public class LibraryResource {
     private int resourceId;
 
     
-    public LibraryResource() {
+   LibraryResource() {
         this.title = "Unknown";
         this.category = "General";
         System.out.println("LibraryResource created with default values.");
